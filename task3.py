@@ -28,6 +28,17 @@ Enter a number: 212
 
 Enter a number: 10000
 3
-
-
 """
+number = float(input("Enter Number:"))
+
+
+if 0 <= number <= 10:
+    print("0")
+elif  10 <= number <= 100:
+    print("1")
+elif  100 <= number <= 1000:
+    print("2")
+elif number >= 1000:
+    print("3")
+
+
